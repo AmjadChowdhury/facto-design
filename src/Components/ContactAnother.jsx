@@ -3,6 +3,8 @@ import { MdGroups } from "react-icons/md";
 import { IoIosCall } from "react-icons/io";
 import { IoIosAdd } from "react-icons/io";
 import Button from "./Button";
+import img1 from '../../public/rev/rev1.jpg'
+import img2 from '../../public/rev/rev2.jpg'
 const ContactAnother = () => {
   return (
     <div className="flex-1 bg-yellow-200 relative p-4 lg:p-8 rounded-lg ">
@@ -22,17 +24,17 @@ const ContactAnother = () => {
             <div className="avatar-group -space-x-6 rtl:space-x-reverse">
               <div className="avatar">
                 <div className="w-12">
-                  <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                  <img src={img1} />
                 </div>
               </div>
               <div className="avatar">
                 <div className="w-12">
-                  <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                  <img src={img2} />
                 </div>
               </div>
               <div className="avatar">
                 <div className="w-12">
-                  <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                  <img src={img1} />
                 </div>
               </div>
             </div>

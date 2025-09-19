@@ -15,7 +15,7 @@ const Banner = () => {
     }
   return (
     <div>
-      <div className="flex flex-col justify-center items-center space-y-2">
+      <div className="flex flex-col justify-center items-center space-y-2 mt-4 lg:mt-8">
         <Heading heading={headingInfo}/>
         <ButtonGreen btnName={'Get Started'}/>
       </div>

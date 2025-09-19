@@ -3,7 +3,7 @@ import React from "react";
 const RevolutionCard = ({ rcardInfo }) => {
   return (
     <div
-      className={`px-4 py-5 rounded-lg space-y-2 ${
+      className={`p-4 lg:p-8 rounded-lg space-y-2 ${
         rcardInfo.isGreen ? "bg-green-900 text-white" : "bg-gray-100 text-black"
       }`}
     >

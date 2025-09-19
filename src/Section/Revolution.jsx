@@ -27,7 +27,7 @@ const Revolution = () => {
     }
   return (
     <div>
-      <div className="lg:flex lg:justify-between lg:items-start gap-2 lg:gap-10">
+      <div className="lg:flex lg:justify-between lg:items-start gap-2 lg:gap-10 mt-4 lg:mt-20">
         <div className="lg:flex-1 space-y-5">
           <Button btnName={"About case service"} />
           <h1 className="text-4xl font-bold">Revolutionizing Cash Flow for Business Owners!</h1>

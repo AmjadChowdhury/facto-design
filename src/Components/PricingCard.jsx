@@ -3,7 +3,7 @@ import { FaCircleArrowRight } from "react-icons/fa6";
 import Button from './Button';
 const PricingCard = ({pricing}) => {
     return (
-        <div className={`rounded-lg p-2 ${
+        <div className={`rounded-lg p-2 lg:p-4 ${
         pricing.plan == "EnterPrice plan" ? "bg-green-900 text-white" : "bg-gray-300 text-black"
       }`}>
             <h3 className='text-lg font-bold'>{pricing.plan}</h3>
