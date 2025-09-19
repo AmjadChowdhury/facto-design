@@ -8,6 +8,7 @@ import Navbar from "./Section/Navbar";
 import Pricing from "./Section/Pricing";
 import Revolution from "./Section/Revolution";
 import Unlock from "./Section/Unlock";
+import Work from "./Section/Work";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Advertisement />
         <div className="mx-1 lg:mx-8 space-y-4">
           <Revolution />
+          <Work/>
           <CustomerReview />
           <Pricing />
           <Contact />
