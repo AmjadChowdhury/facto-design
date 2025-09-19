@@ -1,8 +1,13 @@
 
 import './App.css'
 import Banner from './Section/Banner'
+import Contact from './Section/Contact'
+import CustomerReview from './Section/CustomerReview'
+import Footer from './Section/Footer'
 import Navbar from './Section/Navbar'
+import Pricing from './Section/Pricing'
 import Revolution from './Section/Revolution'
+import Unlock from './Section/Unlock'
 
 function App() {
 
@@ -13,6 +18,11 @@ function App() {
         <Navbar/>
       <Banner/>
       <Revolution/>
+      <CustomerReview/>
+      <Pricing/>
+      <Contact/>
+      <Unlock/>
+      <Footer/>
       </div>
     </>
   )
